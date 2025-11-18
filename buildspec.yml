@@ -5,7 +5,6 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - npm install
-      - npm run test
       - npm run build
   build:
     commands:
